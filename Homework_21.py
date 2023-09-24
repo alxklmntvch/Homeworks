@@ -187,4 +187,5 @@ SELECT * FROM orders WHERE order_id = 6;
 
 # 10. Подсчитать общую стоимость всех заказов, сделанных в определённом году.
 SELECT order_id FROM orders WHERE date LIKE '2023%';
-SELECT SUM(price) FROM orderitems WHERE (order_id = 2) + (order_id = 3) + (order_id = 4) + (order_id = 5) + (order_id = 6) + (order_id = 7) + (order_id = 8) + (order_id = 9) + (order_id = 10);
+SELECT SUM(price) FROM orderitems WHERE (order_id = 2) + (order_id = 3) + (order_id = 4) + (order_id = 5) +
+(order_id = 6) + (order_id = 7) + (order_id = 8) + (order_id = 9) + (order_id = 10);
